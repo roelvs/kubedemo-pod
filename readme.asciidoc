@@ -1,0 +1,6 @@
+= about this container
+
+This container is nothing more than a Flask application that hosts a simple web page for testing purposes. 
+There is a built in delay of 500ms to demonstrate (and remediate) congestion.
+
+The server listens on :5000
