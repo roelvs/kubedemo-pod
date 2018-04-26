@@ -1,6 +1,7 @@
 
 import logging
 from flask import Flask, render_template
+import time
 
 
 logging.info("starting the engines...")
@@ -16,6 +17,7 @@ def welcome():
     endpoint for check availability
     :return: http response 200/"data collector online"
     """
+    time.sleep(0.5)
     logging.debug("default pagina opgevraagd...")
     return render_template('index.html')
 
